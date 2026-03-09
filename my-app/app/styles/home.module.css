@@ -1,0 +1,23 @@
+
+.mynav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.link  {
+    color: red;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+.link:hover {
+    color: black;
+}
+
+.myLi {
+    cursor: pointer;
+    list-style: none;
+
+}
